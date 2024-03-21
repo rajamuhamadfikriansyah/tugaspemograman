@@ -1,0 +1,92 @@
+body{
+    background-color:lightgray;
+    overflow: hidden;
+}
+header{
+    background-color: lightblue;
+    
+}
+h2{
+    color: black;
+    text-align: center;
+ 
+}
+button {
+    background-color: lightblue;
+    color: black;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#profile {
+    text-align: center;
+    margin: 5px;
+    
+}
+h3, h5{
+    text-align: center;
+}
+#about th:first-child {
+    background-color: lightblue;
+}
+
+#about th:last-child {
+    background-color: lightblue;
+}
+
+#profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    
+}
+table, th, td{
+    border: 3px  solid black ;
+
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+footer {
+    
+    padding: 0px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+#sosmed {
+    text-align: center;
+    padding: 30px;
+   
+}
+
+.sosial-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sosial-media a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.sosial-media img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    border: 2px solid black;
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.sosial-media img:hover {
+    transform: scale(1.1); 
+    border-color:lightblue;
+}
